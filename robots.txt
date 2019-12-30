@@ -1,0 +1,3 @@
+# Example 1: Block DummyPg.html
+User-agent: *
+Disallow: /dummyPg.html
