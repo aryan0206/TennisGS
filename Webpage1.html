@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
         <head>
+                <meta charset="UTF-8">
+                <meta name="description" content="Tennis Webssite">
+                <meta name="keywords" content="HTML,CSS">
+                <meta name="author" content="AM">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <style>
                         h1 {
                         color: blue;
@@ -12,15 +17,43 @@
                         color: red;
                         font-family: courier;
                         font-size: 160%;
+                        text-align: center;
+                        }
+                        p.type2  {
+                        color:burlywood;
+                        font-family:'Franklin Gothic Medium';
+                        font-size: 200%;
+                        text-align:
                         }
                 </style>
                         <link rel="shortcut icon" type="image/png" href="tennisball.png"/>
                         <title>Tennis Grand Slams</title>
-        </head>
-        <body>
+                        <link href="style.css" type="text/css" rel="stylesheet">
+                </head>
+                <body>
         
-                <h1>Tennis</h1>
+                
+                <h1>Tennis: The Champion</h1>
                 <p>Grand Slams during the year.</p>
-    
+                <div class="slider-holder">
+                        <span id="slider-image-1"></span>
+                        <span id="slider-image-2"></span>
+                        <span id="slider-image-3"></span>
+                        <span id="slider-image-4"></span>
+                        <div class="image-holder">
+                            <img src="asopen.jpg" class="slider-image" />
+                            <img src="frenchopen.jpg" class="slider-image" />
+                            <img src="Wimbledon.jpg" class="slider-image" />
+                            <img src="us-open.jpg" class="slider-image" />
+                        </div>
+                        <div class="button-holder">
+                            <a href="#slider-image-1" class="slider-change"></a>
+                            <a href="#slider-image-2" class="slider-change"></a>
+                            <a href="#slider-image-3" class="slider-change"></a>
+                            <a href="#slider-image-4" class="slider-change"></a>
+                        </div>
+                    </div>
+                    <p class="type2"><a href="ExternalPg.html">The Players</a></p>
+                    <!-- <object width="200" height="200" data="ExternalPg.html" text-align="center">The Players</object> -->
         </body>
 </html>
